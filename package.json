@@ -1,9 +1,9 @@
 {
   "name": "vector2d",
   "version": "1.0.0",
-  "description": "Basic operations for two-dimensional vectors",
+  "description": "Basic 2D vector operations",
   "license": "MIT",
-  "author": "Brandon Semilla <semibran@gmail.com>",
+  "author": "Brandon Semilla (https://github.com/semibran)",
   "main": "lib",
   "repository": {
     "type": "git",
