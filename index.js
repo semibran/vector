@@ -1,43 +1,43 @@
 module.exports = { compose, direction, magnitude, normalize, equals, add, subtract, multiply, divide }
 
-function compose (vector) {
+function compose(vector) {
 	return {
 		direction: direction(vector),
 		magnitude: magnitude(vector)
 	}
 }
 
-function direction (vector) {
+function direction(vector) {
 	return Math.atan2(vector.y, vector.x)
 }
 
-function magnitude (vector) {
+function magnitude(vector) {
 	return Math.sqrt(vector.x * vector.x + vector.y * vector.y)
 }
 
-function normalize (vector) {
+function normalize(vector) {
 	return divide(vector, magnitude(vector))
 }
 
-function equals (vector, other) {
+function equals(vector, other) {
 	return vector.x === other.x && vector.y === other.y
 }
 
-function add (vector, other) {
+function add(vector, other) {
 	return {
 		x: vector.x + other.x,
 		y: vector.y + other.y
 	}
 }
 
-function subtract (vector, other) {
+function subtract(vector, other) {
 	return {
 		x: vector.x - other.x,
 		y: vector.y - other.y
 	}
 }
 
-function multiply (vector, other) {
+function multiply(vector, other) {
 	if (!isNaN(other)) {
 		return {
 			x: vector.x * other,
@@ -51,12 +51,16 @@ function multiply (vector, other) {
 	}
 }
 
-function divide (vector, other) {
+function divide(vector, other) {
 	if (!isNaN(other)) {
 		return {
-			x: vector.x / other, vector.y / other)
+			x: vector.x / other,
+			y: vector.y / other
+		}
 	} else {
 		return {
-			x: vector.x / other.x, vector.y / other.y)
+			x: vector.x / other.x,
+			y: vector.y / other.y
+		}
 	}
 }
