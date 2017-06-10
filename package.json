@@ -1,12 +1,19 @@
 {
-  "name": "vector2d",
-  "version": "1.0.0",
-  "description": "Basic 2D vector operations",
-  "license": "MIT",
-  "author": "Brandon Semilla (https://github.com/semibran)",
-  "main": "lib",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/semibran/vector2d.git"
-  }
+ "name": "vctr",
+ "version": "0.1.0",
+ "description": "Minimal operations for two-dimensional vectors",
+ "keywords": [
+   "vector",
+   "2d",
+   "math",
+   "geometry",
+   "trigonometry"
+ ],
+ "main": "index.js",
+ "license": "MIT",
+ "author": "Brandon Semilla (https://github.com/semibran)",
+ "repository": {
+  "type": "git",
+  "url": "https://github.com/semibran/vctr.git"
+ }
 }
