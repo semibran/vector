@@ -3,11 +3,11 @@
  "version": "0.1.0",
  "description": "Minimal operations for two-dimensional vectors",
  "keywords": [
-   "vector",
-   "2d",
-   "math",
-   "geometry",
-   "trigonometry"
+  "vector",
+  "2d",
+  "math",
+  "geometry",
+  "trigonometry"
  ],
  "main": "index.js",
  "license": "MIT",
