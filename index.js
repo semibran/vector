@@ -83,11 +83,11 @@ function resolve(vector) {
 }
 
 function direction(vector) {
-	return atan(vector.y, vector.x)
+  return atan(vector.y, vector.x)
 }
 
 function magnitude(vector) {
-	return sqrt(vector.x * vector.x + vector.y * vector.y)
+  return sqrt(vector.x * vector.x + vector.y * vector.y)
 }
 
 function normalize(vector) {
