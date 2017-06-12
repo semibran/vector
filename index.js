@@ -63,7 +63,7 @@ function dot(a, b) {
 }
 
 function cross(a, b) {
-  return a.x * b.y + b.x * a.y
+  return a.x * b.y - b.x * a.y
 }
 
 function compose(vector) {
