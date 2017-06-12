@@ -1,6 +1,6 @@
 {
  "name": "vctr",
- "version": "0.1.0",
+ "version": "0.2.0",
  "description": "Minimal operations for two-dimensional vectors",
  "keywords": [
   "vector",
