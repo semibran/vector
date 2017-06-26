@@ -1,7 +1,7 @@
 # vctr
 > Minimal operations for multidimensional vectors
 
-In two dimensions, a vector can be represented by a map with the two fields `x` and `y`. This module contains a few small functions for manipulating these kinds of objects.
+This module assumes that a vector is an array of numbers, allowing these functions to be used on vectors of all dimensions.
 
 ## install
 ```sh
@@ -47,7 +47,7 @@ Converts `vector` to a unit vector.
 Determines the distance (a scalar quantity) between the two provided vectors.
 
 ## see also
-- [`radians`](https://github.com/semibran/radians) - convert between radians and degrees
+- [`semibran/radians`](https://github.com/semibran/radians) - convert between radians and degrees
 
 ## license
 [MIT](https://opensource.org/licenses/MIT) © [Brandon Semilla](https://git.io/semibran)
