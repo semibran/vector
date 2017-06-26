@@ -1,6 +1,6 @@
 {
  "name": "vctr",
- "version": "0.2.0",
+ "version": "0.3.0",
  "description": "Minimal operations for two-dimensional vectors",
  "keywords": [
   "vector",
@@ -14,6 +14,6 @@
  "author": "Brandon Semilla (https://github.com/semibran)",
  "repository": {
   "type": "git",
-  "url": "https://github.com/semibran/vctr.git"
+  "url": "https://github.com/semibran/vector.git"
  }
 }

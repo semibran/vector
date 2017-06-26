@@ -1,5 +1,5 @@
 # vctr
-> Minimal operations for two-dimensional vectors
+> Minimal operations for multidimensional vectors
 
 In two dimensions, a vector can be represented by a map with the two fields `x` and `y`. This module contains a few small functions for manipulating these kinds of objects.
 
@@ -28,14 +28,11 @@ Returns the quotient of the two provided vectors. The second argument may be a s
 ### `dot(a, b)`
 Determines the dot product of the two provided vectors.
 
-### `cross(a, b)`
-Determines the magnitude of the cross product of the two provided vectors.
-
 ### `compose(vector)`
-Converts `vector` from Cartesian coordinates (`x` and `y`) to polar coordinates (`direction` and `magnitude`).
+Converts `vector` from Cartesian coordinates to spherical coordinates `{ direction, magnitude }`.
 
 ### `resolve(vector)`
-Converts `vector` from polar coordinates (`direction` and `magnitude`) to Cartesian coordinates (`x` and `y`).
+Converts `vector` from spherical coordinates to Cartesian coordinates.
 
 ### `direction(vector)`
 Calculates the direction in which `vector` is pointing, in radians.
@@ -50,7 +47,7 @@ Converts `vector` to a unit vector.
 Determines the distance (a scalar quantity) between the two provided vectors.
 
 ## see also
-- [`radians`](https://www.npmjs.com/package/radians) - convert between radians and degrees
+- [`radians`](https://github.com/semibran/radians) - convert between radians and degrees
 
 ## license
 [MIT](https://opensource.org/licenses/MIT) © [Brandon Semilla](https://git.io/semibran)
