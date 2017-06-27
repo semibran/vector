@@ -1,7 +1,5 @@
-module.exports = magnitude
-
 var dot = require('./dot')
 
-function magnitude(vector) {
+module.exports = function magnitude(vector) {
   return Math.sqrt(dot(vector, vector))
 }

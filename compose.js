@@ -1,9 +1,7 @@
-module.exports = compose
-
 var direction = require('./direction')
 var magnitude = require('./magnitude')
 
-function compose(vector) {
+module.exports = function compose(vector) {
   return {
     direction: direction(vector),
     magnitude: magnitude(vector)

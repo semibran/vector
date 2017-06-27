@@ -1,8 +1,6 @@
-module.exports = direction
-
 var magnitude = require('./magnitude')
 
-function direction(vector) {
+module.exports = function direction(vector) {
   var dimensions = vector.length
   var length = dimensions - 1
   if (length !== 1) {
